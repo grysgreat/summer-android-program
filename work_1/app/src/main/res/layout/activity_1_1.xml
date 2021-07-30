@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/page_name"
+            style="@style/list_raw_text_style"
+            android:layout_width="187dp"
+            android:text="activity display次数: " />
+
+        <TextView
+            android:id="@+id/textinput_counter"
+            style="@style/list_raw_text_style"
+            android:layout_width="93dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:background="@color/purple_200"
+            android:text="click" />
+
+    </LinearLayout>
+</ScrollView>
