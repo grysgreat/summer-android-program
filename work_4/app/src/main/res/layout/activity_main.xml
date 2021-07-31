@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击右上角三点唤出item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:layout_marginHorizontal="@android:dimen/app_icon_size"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintTop_creator="@android:integer/config_longAnimTime"
+        app:layout_constraintTop_toTopOf="@+id/tv2"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp">
+
+        <TextView
+            android:id="@+id/ttv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="textview1"
+            android:textSize="30dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/tv2"
+            tools:layout_editor_absoluteX="21dp" />
+
+        <TextView
+            android:id="@+id/ttv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="textview2"
+            android:textSize="30dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/tv2"
+            tools:layout_editor_absoluteX="21dp" />
+
+        <TextView
+            android:id="@+id/ttv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="textview3"
+            android:textSize="30dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/tv2"
+            tools:layout_editor_absoluteX="21dp" />
+
+        <TextView
+            android:id="@+id/ttv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:visibility="invisible"
+            android:text="textview4"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
